@@ -1,0 +1,137 @@
+:root {
+    --orange-color: #ffa384;
+    --yellow-color: #ffffb0;
+    --cyan-color: #55d6e3;
+    --white-color: #e0fffb;
+    --blue-color: #4093a4;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+    background-color: var(--white-color);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: var(--blue-color);
+    padding: 20px;
+    width: 250px;
+    border-right: 3px solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.logo img {
+    max-width: 80px;
+}
+
+.logo h3 {
+    font-size: 18px;
+}
+
+.icon {
+    height: 20px;
+    vertical-align: middle;
+    float: left;
+}
+
+.content {
+    background-color: #ecf0f1;
+    flex-grow: 1;
+    padding: 80px 20px 20px;
+}
+
+.header {
+    padding: 8px 24px;
+    width: 100%;
+    display: inline-block;
+    background: var(--cyan-color);
+    border-bottom: 3px solid;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    font-weight: 600;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.stat1, .stat2, .stat3 {
+    padding: 10px;
+    width: 300px;
+    background-color: var(--orange-color);
+    border-radius: 18px;
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-sub, .menu-active{
+    margin-left: 10px;
+    padding: 8px 24px;
+    width: 90%;
+    border-radius: 24px;
+    display: inline-block;
+    font-weight: 800;
+    background: var(--yellow-color);
+    border: 3px solid;
+    margin-bottom: 16px;
+    text-indent: 10px;
+    text-align: left;
+    cursor: pointer;
+    &:hover {
+        background: var(--orange-color);
+    }
+}
+
+.menu-active {
+    background: var(--orange-color);
+}
+
+.menu-logout {
+    bottom: 0;
+    padding: 4px;
+    width: 40%;
+    border-radius: 24px;
+    display: inline-block;
+    font-weight: 900;
+    background: var(--white-color);
+    border: 3px solid;
+    cursor: pointer;
+    &:hover {
+        background: var(--orange-color);
+    }
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}   

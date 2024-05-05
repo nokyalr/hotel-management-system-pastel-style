@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengunjung</title>
+    <link rel="stylesheet" href="pengunjung_tambah_style.css">
+    <link rel="icon" href="images/user2.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="images/hotel.png" alt="Hotel Logo">
+                <h3>Sistem Manajememen Hotel</h3>
+            </div>
+            <div class="menu">
+                <button class="menu-sub"><img src="images/dashboard.png" alt="Dashboard Icon" class="icon"> Dashboard</button>
+                <button class="menu-active"><img src="images/user.png" alt="Pengunjung Icon" class="icon"> Pengunjung</button>
+                <button class="menu-sub"><img src="images/room.png" alt="Kamar Icon" class="icon"> Kamar</button>
+                <button class="menu-sub"><img src="images/reservation.png" alt="Pemesanan Icon" class="icon"> Pemesanan</button>
+                <button class="menu-logout">Logout</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="header">Pengunjung</div>
+            <div class="menu2">
+                <button class="menu2-active">Tambah</button>
+                <button class="menu2-sub">Cari</button>
+                <button class="menu2-sub">Perbarui</button>
+            </div>
+            <div class="form">
+                <h2>Tambah Pengunjung</h2>
+                <form action="" class="paragraf">
+                    <label for="nama">Nama<span class="tab1"></span> :</label>&emsp;
+                    <input type="text" id="nama" required> <br>
+                    <label for="telepon">No. Telepon<span class="tab2"></span> :</label>&emsp;
+                    <input type="text" id="telepon" required> <br>  
+                    <label for="email">Email<span class="tab3"></span> :</label>&emsp;
+                    <input type="text" id="email" required> <br>
+                    <button class="tambah" type="submit">Tambah</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
