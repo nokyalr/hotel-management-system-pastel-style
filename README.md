@@ -1,9 +1,9 @@
-# hotel-management-system-pastel-style
-hotel management system pastel style using html and css
+# Simple hotel management system using html and css
+this project mainly focus on building CRUD using mysql and php (soon)
 
-If you resize window (zoom) it will break the element :) 
-
-Sorry I'm newbee at this >.<
+> If you resize window (zoom) it will break the element :)
+>
+> Sorry I'm newbee at this >.<
 
 ## Pictures of Progress
 
