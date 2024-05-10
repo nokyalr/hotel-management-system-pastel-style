@@ -182,6 +182,9 @@ input[type="text"] {
     border: 3px solid;
     width: 40%;
     margin-bottom: 16px;
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
     &:focus {
         background: var(--yellow-color);
     }
