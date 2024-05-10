@@ -25,3 +25,9 @@ customer read page
 
 ![image](https://github.com/nokyalr/hotel-management-system-pastel-style/assets/136596591/f650291d-93a8-4424-bf46-c024a9a0f94c)
 
+### Day 3:
+
+customer update/delete page
+![image](https://github.com/nokyalr/hotel-management-system-pastel-style/assets/136596591/ebb2d5de-8d83-4446-ac53-a6da96bff2b0)
+
+
