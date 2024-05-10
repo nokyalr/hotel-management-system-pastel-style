@@ -69,6 +69,9 @@ input[type="password"] {
     border: 3px solid;
     width: 80%;
     margin-bottom: 16px;
+    font-family: 'Signika', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
     &:focus {
         background: var(--white-color);
     }
@@ -77,14 +80,14 @@ input[type="password"] {
 .user {
     width: 24px;
     position: absolute;
-    right: 60px;
+    right: 8.5%;
     top: 48.5%;
 }
 
 .password {
     width: 24px;
     position: absolute;
-    right: 60px;
+    right: 8.5%;
     top: 62%;
 }
 
